@@ -21,8 +21,11 @@
 }
 
 .button{
-    background-color:beige;
-    padding: 15px;
-    margin: 0 auto;
+    /* background-color:beige; */
+    background-color:lightsteelblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 13px;
+    margin: 4px auto;
 
 }

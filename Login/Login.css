@@ -1,0 +1,50 @@
+.page-container{
+
+    /* choice 1 */
+    /* margin: auto auto;
+    width: fit-content; */
+
+    /* choice 2 */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    font-family: 'Candara', sans-serif;
+
+    /* background-color: aqua; */
+}
+
+.page-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:beige;
+    padding: 30px;
+
+    gap: 10px;
+
+    font-size: 18px;
+
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button{
+    /* background-color:beige; */
+    background-color:#0490FF;
+    color: white;
+    border: 2px solid #0490FF;
+    border-radius: 8px;
+    padding: 7px;
+
+    /* margin: 4px auto; */
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
