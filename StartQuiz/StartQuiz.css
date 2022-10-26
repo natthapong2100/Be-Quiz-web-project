@@ -1,0 +1,28 @@
+.page-container{
+
+    /* choice 1 */
+    /* margin: auto auto;
+    width: fit-content; */
+
+    /* choice 2 */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    /* background-color: aqua; */
+}
+
+.page-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* margin: 0 auto; */
+}
+
+.button{
+    background-color:beige;
+    padding: 15px;
+    margin: 0 auto;
+
+}
