@@ -1,0 +1,20 @@
+.page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.question-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: brown;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
