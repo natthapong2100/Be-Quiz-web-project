@@ -12,7 +12,7 @@
     background-color:darkorange;
 
     overflow-x: scroll; /* this and */
-    overflow-y: hidden; /* this use for horizontal slide*/
+    overflow-y: hidden; /*this use for horizontal slide*/
 
     padding: 10px;
     gap: 20px;
@@ -22,7 +22,7 @@
 
 .card{
     /* width: 100px; */
-    min-width: 100px; /* ใช้อันนี้แทน width ปกติ */
+    min-width: 100px; /*ใช้อันนี้แทน width ปกติ*/
 
     height: 100px;
     border-radius: 2px;

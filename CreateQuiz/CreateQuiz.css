@@ -1,0 +1,76 @@
+.title{
+    font-size: medium;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Candara', sans-serif;
+}
+
+.page-header{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+}
+
+.page-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.quiz-slider{
+    display: flex;
+    flex-direction: column;
+    background-color:aquamarine;
+
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 15px 15px 15px 50px;
+
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+
+.card{
+    /* width: 100px; */
+    width: 180px; /* ใช้อันนี้แทน width ปกติ */
+    min-height: 120px;
+
+    border-radius: 2px;
+    background-color:coral;
+
+    /* margin: 10px 5px; */
+
+}
+
+.quiz-work-area{
+    background-color:navy;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.button{
+    /* background-color:beige; */
+    background-color:#0490FF;
+    color: white;
+    border: 2px solid #0490FF;
+    border-radius: 8px;
+    padding: 7px;
+
+    /* margin: 4px auto; */
+    /* margin-top: 20px; */
+    font-size: 16px;
+    cursor: pointer;
+
+}
