@@ -2,15 +2,18 @@
     font-size: medium;
 }
 
+.add-image{
+    width: 70vh;
+}
+
 .question{
-    /* text-align: center; */
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 2.3vh;
     margin-top: 20px;
     border: 0px;
     resize: none;
     border-radius: 7px;
     box-shadow: 5px 5px 5px lightgrey;
-    /* padding-top: 5px; */
     padding: 10px 10px 0;
     vertical-align: middle;
 }
@@ -26,6 +29,8 @@
     display: flex;
     flex-direction: row;
     background-color: beige;
+    height: 4vh;
+    padding-left: 300px;
 }
 
 .page-form{
@@ -39,26 +44,52 @@
     display: flex;
     flex-direction: column;
     background-color:aquamarine;
-
-    /* height: 800px; */
     overflow-x: hidden;
     overflow-y: scroll;
-    padding: 15px 22px 15px 50px;
 
-    gap: 20px;
-    /* border: 2px solid black; */
+    gap: 10px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 15px 15px 15px 22px;
+    border-radius: 7px;
+}
+
+.card-side-info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 13px;
+}
+
+
+
+.card-number{
+    /* background-color:#0490FF; */
+    font-size: 2.1vh;
+}
+
+.symbol{
+    visibility: hidden; /* for duplicate and remove symbol in the future (when mouse hover)*/
 }
 
 .card{
-    /* width: 100px; */
-    width: 180px; /* ใช้อันนี้แทน width ปกติ */
+    width: 180px;
     min-height: 120px;
 
     border-radius: 2px;
-    background-color:coral;
+    background-color: lightgray;
 
-    /* margin: 10px 5px; */
+}
 
+.card:hover{
+    border: 3px solid darkorange;
+}
+
+.card:visited{
+    border: 3px solid blue;
 }
 
 .quiz-work-area{
@@ -66,9 +97,8 @@
 
     display: flex;
     flex-direction: column;
-    /* width:auto; */
     width: 90vw;
-    gap: 22px;
+    gap: 2.5vh;
 }
 
 
@@ -78,16 +108,13 @@
     justify-content: center;
 }
 
+
 .button{
-    /* background-color:beige; */
     background-color:#0490FF;
     color: white;
     border: 2px solid #0490FF;
     border-radius: 8px;
     padding: 7px;
-
-    /* margin: 4px auto; */
-    /* margin-top: 20px; */
     font-size: 16px;
     cursor: pointer;
 
@@ -98,7 +125,7 @@
     grid-template-columns: auto auto;
     gap: 30px;
 
-    background-color: bisque;
+    /* background-color: bisque; */
     justify-content: center;
 
 }
@@ -114,16 +141,16 @@
 }
 
 .choice-number{
-    /* height: 70px; */
-
     background-color:#0490FF;
-    font-size: 26px;
+    /* font-size: 26px; */
+    font-size: 2.5vh;
     padding: 20px 10px;
     border-radius: 7px;
 }
 
 .choice-text{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 2vh;
     padding: 10px 10px 0;
     vertical-align: middle;
     border: 0px;
@@ -131,11 +158,16 @@
     resize: none;
 }
 
-/* .choice{
-    width: 500px;
-    height: 100px;
+.add-quiz-slide{
+    font-size: 2vh;
+    width: 10vw;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
 
-    background-color:darkcyan;
-    font-size: 26px;
-    
-} */
+    background-color: #0490FF;
+    color: white;
+    border: 2px solid #0490FF;
+    border-radius: 5px;
+    cursor: pointer;
+}
